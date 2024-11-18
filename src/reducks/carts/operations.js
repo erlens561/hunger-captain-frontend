@@ -35,7 +35,7 @@ export const increaseCart = (item) => {
         dispatch(increaseCartAction(prevCarts, subtotal))
    }
 }
-[]
+
 export const decreaseCart = (item) => {
     return async (dispatch, getState) => {
         let prevCarts = getState().carts.list
